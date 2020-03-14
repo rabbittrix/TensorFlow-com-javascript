@@ -1,0 +1,1 @@
+Those improvements are independent of Supercharger V3 power increase from 135kW to 250+kW. All factors considered, charge time will drop by factor of 4 best case & more than 2 for whole Tesla fleet. Effectively, this more than doubles total WW Supercharger system throughput.

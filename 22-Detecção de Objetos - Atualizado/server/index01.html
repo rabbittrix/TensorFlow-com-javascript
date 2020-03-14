@@ -1,0 +1,54 @@
+﻿<!doctype html>
+<html>
+	<head>
+	   <link rel="stylesheet" href="/bootstrapcss">
+	   <script src="/jquery"></script>
+	   <script src="/popper"></script>
+	   <script src="/bootstrapjs"></script>
+	   <meta charset="utf-8">
+	   <title>TensorFlow</title>
+
+	   <script src="/tensorflow"></script>
+	   <!--
+	   <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.4/dist/tf.min.js"></script>
+	   -->
+	   <script src="/coco-ssd"></script>
+	   <!--
+	   <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+	   -->
+	</head>
+	<body>
+	   <nav class="navbar navbar-expand-sm bg-warning">
+	     <ul class="navbar-nav">
+	       <li class="nav-item">
+	         <a class="nav-link text-white" href="#">
+	         	TensorFlow
+	     	 </a>
+	       </li>
+	     </ul>
+	   </nav>
+	   <br>
+	   <div class="container">
+	   	 <img src="img/tf.png" width="5%" style="float: right;">
+	     <h2>Inteligência Artificial com JavaScript e TensorFlow.js</h2>
+	     <p id="carregamento">... carregando, por favor aguarde.</p>    
+
+	     <table width="100%" style="margin-bottom: 7px;">
+	     	<tr>
+				<td align="center">
+					<canvas id="desenho" width="400px" height="300px"></canvas>
+				</td>   		
+	     	</tr>    	
+	     </table>
+
+	     <table width="100%">
+	     	<tr>
+	     		<td width="83%" style="padding-bottom: 10px;"><input type="file" class="form-control" onchange="abrir()"></td>
+			    <td align="right"><button type="button" id="botao" class="btn btn-lg btn-warning" onclick="prever()">Detectar Objetos</button></td>
+		 	</tr>
+	     </table>
+
+	   </div>
+	   <script src="/action01"></script>
+	</body>
+</html>
